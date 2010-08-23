@@ -1,0 +1,5 @@
+[s]ize-
+  PID TTY      STAT   TIME  MAJFL   TRS   DRS   RSS %MEM COMMAND
+ 1972 pts/2    S      0:01      0     3 24132 19664  0.6 perl size-gd.pl
+ 1974 pts/2    S      0:01      0     3 11812  5620  0.1 perl size-imager.pl
+ 1976 pts/2    Sl     0:01      0     3 22244  5148  0.1 perl size-im.pl

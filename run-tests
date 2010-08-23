@@ -1,0 +1,22 @@
+#!/bin/bash
+
+# Time
+for i in size*.pl ; do echo $i ; time perl $i   ; done 
+
+# Mem usage
+for i in size*.pl ; do echo $i ; ( memusg perl $i )  ; done 
+
+# Exif
+for i in test*.jpg ; do exiftool $i | sort > "${i%.jpg}.exif" ; done
+
+echo "ready to see exif diffs?"
+read y
+
+for i in test-*.exif ; do 
+	echo $i
+	diff test.exif $i | more
+
+	echo "That was $i. Next?"
+	read y
+done
+

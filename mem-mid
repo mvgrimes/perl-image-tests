@@ -1,0 +1,5 @@
+[s]ize-
+  PID TTY      STAT   TIME  MAJFL   TRS   DRS   RSS %MEM COMMAND
+ 2018 pts/2    S      0:01      0     3 49252 44244  1.5 perl size-gd.pl
+ 2021 pts/2    S      0:01      0     3 27120 20872  0.7 perl size-imager.pl
+ 2023 pts/2    Sl     0:01      0     3 24644  7448  0.2 perl size-im.pl

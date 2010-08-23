@@ -1,0 +1,7 @@
+Some scripts that I am tinkering with to benchmark and test the 
+various image modules on CPAN.
+
+	- Imager
+	- GD
+	- Image::Magick
+	- ... more?
