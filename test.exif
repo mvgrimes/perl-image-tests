@@ -1,5 +1,5 @@
-AE Lock Button                  : AE/AF Lock
 AE Lock                         : Off
+AE Lock Button                  : AE/AF Lock
 AF Aperture                     : 3.6
 AF Area Mode                    : Dynamic Area (closest subject)
 AF Area Mode Setting            : Closest Subject
@@ -7,14 +7,14 @@ AF Assist                       : On
 AF Point                        : Center
 AF Points In Focus              : Center
 Aperture                        : 6.3
+Auto ISO                        : Off
 Auto ISO Max                    : 1600
 Auto ISO Min Shutter Speed      : 1/30 s
-Auto ISO                        : Off
 Beep                            : On
 Bits Per Sample                 : 8
 Blue Balance                    : 1.496094
-Camera Model Name               : NIKON D40X
 CFA Pattern                     : [Green,Blue][Red,Green]
+Camera Model Name               : NIKON D40X
 Circle Of Confusion             : 0.020 mm
 Color Components                : 3
 Color Hue                       : Mode3a
@@ -38,8 +38,8 @@ Encoding Process                : Baseline DCT, Huffman coding
 Exif Byte Order                 : Big-endian (Motorola, MM)
 Exif Image Height               : 2592
 Exif Image Width                : 3872
-ExifTool Version Number         : 8.25
 Exif Version                    : 0221
+ExifTool Version Number         : 8.25
 Exit Pupil Position             : 107.8 mm
 Exposure Compensation           : 0
 Exposure Difference             : 0
@@ -49,13 +49,15 @@ Exposure Time                   : 1/160
 External Flash Exposure Comp    : 0
 External Flash Firmware         : n/a
 External Flash Flags            : (none)
+F Number                        : 6.3
 Field Of View                   : 67.1 deg (5.28 m)
-File Modification Date/Time     : 2010:08:22 16:18:45-04:00
+File Modification Date/Time     : 2010:08:23 08:19:05-04:00
 File Name                       : test.jpg
 File Permissions                : rw-r--r--
 File Size                       : 2.4 MB
 File Source                     : Digital Camera
 File Type                       : JPEG
+Flash                           : No Flash
 Flash Commander Mode            : Off
 Flash Compensation              : 0
 Flash Control Mode              : Off
@@ -70,12 +72,10 @@ Flash Group C Control Mode      : Off
 Flash Info Version              : 0102
 Flash Level                     : +0.0
 Flash Mode                      : Did Not Fire
-Flash                           : No Flash
-Flashpix Version                : 0100
 Flash Setting                   : Normal
 Flash Source                    : None
 Flash Type                      : 
-F Number                        : 6.3
+Flashpix Version                : 0100
 Focal Length                    : 18.0 mm
 Focal Length                    : 18.0 mm (35 mm equivalent: 27.0 mm)
 Focal Length In 35mm Format     : 27 mm
@@ -87,6 +87,8 @@ Gain Control                    : None
 High ISO Noise Reduction        : Off
 Hue Adjustment                  : 0
 Hyperfocal Distance             : 2.57 m
+ISO                             : 100
+ISO Setting                     : 100
 Image Boundary                  : 0 0 3872 2592
 Image Data Size                 : 2457094
 Image Height                    : 2592
@@ -98,8 +100,6 @@ Image Width                     : 3872
 Internal Flash                  : TTL
 Interoperability Index          : R98 - DCF basic file (sRGB)
 Interoperability Version        : 0100
-ISO                             : 100
-ISO Setting                     : 100
 Lens                            : 18-135mm f/3.5-5.6
 Lens                            : 18-135mm f/3.5-5.6 G
 Lens Data Version               : 0202
@@ -109,6 +109,8 @@ Lens ID Number                  : 143
 Lens Type                       : G
 Light Source                    : Natural
 Light Value                     : 12.6
+MCU Version                     : 145
+MIME Type                       : image/jpeg
 Make                            : NIKON CORPORATION
 Maker Note Version              : 2.10
 Manual Flash Output             : Full
@@ -116,11 +118,9 @@ Max Aperture At Max Focal       : 5.7
 Max Aperture At Min Focal       : 3.6
 Max Aperture Value              : 3.5
 Max Focal Length                : 134.5 mm
-MCU Version                     : 145
 Metering                        : Matrix
 Metering Mode                   : Multi-segment
 Metering Time                   : 8 s
-MIME Type                       : image/jpeg
 Min Focal Length                : 18.3 mm
 Modify Date                     : 2010:06:20 03:24:00
 Modify Date                     : 2010:06:20 03:24:00.00
@@ -129,8 +129,8 @@ Multi Exposure Auto Gain        : Off
 Multi Exposure Mode             : Off
 Multi Exposure Shots            : 0
 Multi Exposure Version          : 0100
-Noise Reduction                 : Off
 No Memory Card                  : Release Locked
+Noise Reduction                 : Off
 Orientation                     : Horizontal (normal)
 Preview Image                   : (Binary data 24717 bytes, use -b option to extract)
 Preview Image Length            : 24717
@@ -156,19 +156,19 @@ Shot Info Version               : 0209
 Shutter Count                   : 4193
 Shutter Speed                   : 1/160
 Software                        : Ver.1.00
-Subject Distance Range          : Unknown
 Sub Sec Time                    : 00
 Sub Sec Time Digitized          : 00
 Sub Sec Time Original           : 00
+Subject Distance Range          : Unknown
 Thumbnail Image                 : (Binary data 8878 bytes, use -b option to extract)
 Thumbnail Length                : 8878
 Thumbnail Offset                : 28532
 Timer Function Button           : Self-timer
 Tone Comp                       : Auto
 User Comment                    : 
+VR Info Version                 : 0100
 Vari Program                    : Auto
 Vibration Reduction             : Off
-VR Info Version                 : 0100
 WB RB Levels                    : 1.6640625 1.49609375 1 1
 WB RGGB Levels                  : 426 256 256 383
 White Balance                   : Auto

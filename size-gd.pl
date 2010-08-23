@@ -18,9 +18,8 @@ do {
     unlink 'test-gd.jpg';
     my $exif_tool = Image::ExifTool->new;
     $exif_tool->SetNewValuesFromFile('test.jpg') or die;
-    # sleep 20;
     $exif_tool->WriteInfo( \$jpg, 'test-gd.jpg' )
       or die $exif_tool->GetValue('Error');
 };
 
-# sleep 20;
+sleep 20 if @ARGV>= 1 && $ARGV[0] eq 'wait';

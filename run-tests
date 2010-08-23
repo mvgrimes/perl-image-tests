@@ -3,8 +3,13 @@
 # Time
 for i in size*.pl ; do echo $i ; time perl $i   ; done 
 
-# Mem usage
+# Peak Mem usage
 for i in size*.pl ; do echo $i ; ( memusg perl $i )  ; done 
+
+# Ending mem usage
+for i in size*.pl ; do echo $i ; ( perl $i wait & ) ; done 
+sleep 10 
+ps axv | grep -P "^\s*PID|[s]ize-"
 
 # Exif
 for i in test*.jpg ; do exiftool $i | sort > "${i%.jpg}.exif" ; done

@@ -15,10 +15,9 @@ do {
     $err = $img->Resize( width => $w * .25, height => $h * .25 );
     die "error resizing: $err" if $err;
 
-    # sleep 20;
     $err = $img->Write(filename=>'test-im.jpg', compression=>'LZW', quality=> 80);
     die "error writing: $err" if $err;
 
 };
 
-# sleep 20;
+sleep 20 if @ARGV>= 1 && $ARGV[0] eq 'wait';
